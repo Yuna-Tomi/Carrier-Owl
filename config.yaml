@@ -3,9 +3,23 @@ subject: 'cat:cs.AR'
 
 # 検索キーワード
 keywords:
-        kaggle: 3
-        resnet: 3
-        anomaly detection: 1
+        NoC: 3
+        On-Chip Network: 3
+        Many-Core: 2
+        CMPs: 2
+        Chip Multi-Processors: 2
+        routing: 2
+        network: 2
+        topology: 2
+        heterogeneous: 1
+        scalable: 1
+        scalability: 1
+        crossbar: 1
+        traversal: 1
+        circuit-switching: 2
+        circuit-switched: 2
+        flit: 1
+        
 
 # 通知の閾値
-score_threshold: 0
+score_threshold: 3
