@@ -19,7 +19,7 @@ keywords:
         network: 1
         circuit-switching: 2
         circuit-switched: 2
-        flit: 1
+        flit: 2
         
 
 # 通知の閾値
