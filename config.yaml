@@ -1,5 +1,5 @@
 # arxivの学問領域の指定
-subject: 'cat:cs.AR'
+subject: 'cat:cs.*'
 
 # 検索キーワード
 keywords:
@@ -9,7 +9,6 @@ keywords:
         CMPs: 2
         Chip Multi-Processors: 2
         routing: 2
-        network: 2
         topology: 2
         heterogeneous: 1
         scalable: 1
