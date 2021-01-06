@@ -1,9 +1,10 @@
 # arxivの学問領域の指定
-subject: 'cat:cs.*'
+subject: 'cat:cs.AR OR cs.ET OR cs.NI'
 
 # 検索キーワード
 keywords:
-        NoC: 3
+        NoCs: 3 
+        Network-on-Chip: 3
         On-Chip Network: 3
         Many-Core: 2
         CMPs: 2
@@ -15,10 +16,11 @@ keywords:
         scalability: 1
         crossbar: 1
         traversal: 1
+        network: 1
         circuit-switching: 2
         circuit-switched: 2
         flit: 1
         
 
 # 通知の閾値
-score_threshold: 3
+score_threshold: 2
