@@ -177,10 +177,10 @@ def main():
     yesterday_str = yesterday.strftime('%Y%m%d')
     # datetime format YYYYMMDDHHMMSS
     arxiv_query = f'({subject}) AND ' \
+                  f'(submittedDate:' \
+                  f'[{random_start_str}000000 TO {random_end_str}235959] OR ' \
                   f'submittedDate:' \
-                  f'[{random_start_str}000000 TO {random_end_str}235959] AND ' \
-                  f'submittedDate:' \
-                  f'[{yesterday_str}000000 TO {yesterday_str}235959]'
+                  f'[{yesterday_str}000000 TO {yesterday_str}235959])'
     articles = arxiv.query(query=arxiv_query,
                            max_results=1000,
                            sort_by='submittedDate',
