@@ -168,11 +168,11 @@ def main():
     keywords = config['keywords']
     score_threshold = float(config['score_threshold'])
     
-    randint = random.randint(2,300)
+    randint = random.randint(2,365)
     
     random_e = datetime.datetime.today() - datetime.timedelta(days=randint)
     end_str = random_e.strftime('%Y%m%d')
-    random_s = random_e - datetime.timedelta(days=100)
+    random_s = random_e - datetime.timedelta(days=7)
     start_str = random_s.strftime('%Y%m%d')
     
     day_before_yesterday = datetime.datetime.today() - datetime.timedelta(days=2)
