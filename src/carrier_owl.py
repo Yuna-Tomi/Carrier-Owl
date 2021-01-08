@@ -180,7 +180,7 @@ def main():
     # datetime format YYYYMMDDHHMMSS
     arxiv_query = f'({subject}) AND ' \
                   f'submittedDate:' \
-                  f'[{start_str}000000 TO {end_str}235959]'
+                  f'[({start_str}000000 TO {end_str}235959) OR ({day_before_yesterday_str}000000 TO {day_before_yesterday_str}235959)]'
     articles = arxiv.query(query=arxiv_query,
                            max_results=1000,
                            sort_by='submittedDate',
