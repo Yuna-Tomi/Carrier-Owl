@@ -170,10 +170,10 @@ def main():
     
     randint = random.randint(2,500)
     
-    random_e = datetime.datetime.today() - datetime.timedelta(days=random)
+    random_e = datetime.datetime.today() - datetime.timedelta(days=randint)
     end_str = random_e.strftime('%Y%m%d')
     random_s = random_e - datetime.timedelta(days=7)
-    start_str = random_e.strftime('%Y%m%d')
+    start_str = random_s.strftime('%Y%m%d')
     
     day_before_yesterday = datetime.datetime.today() - datetime.timedelta(days=2)
     day_before_yesterday_str = day_before_yesterday.strftime('%Y%m%d')
