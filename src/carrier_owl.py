@@ -80,7 +80,7 @@ def send2app(text: str, slack_id: str, line_token: str) -> None:
 def notify(results: list, slack_id: str, line_token: str) -> None:
     # 通知
     star = '*'*80
-    today = datetime.date.today()
+    today = datetime.date.today() + datetime.timedelta(days=1)
     n_articles = len(results)
     text = f'{star}\n \t \t {today}\tnum of articles = {n_articles}\n{star}'
     send2app(text, slack_id, line_token)
