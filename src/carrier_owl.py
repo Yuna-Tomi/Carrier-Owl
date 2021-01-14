@@ -172,7 +172,7 @@ def main():
     
     random_e = datetime.datetime.today() - datetime.timedelta(days=randint)
     end_str = random_e.strftime('%Y%m%d')
-    random_s = random_e - datetime.timedelta(days=7)
+    random_s = random_e - datetime.timedelta(days=5)
     start_str = random_s.strftime('%Y%m%d')
     
     day_before_yesterday = datetime.datetime.today() - datetime.timedelta(days=2)
