@@ -3,24 +3,23 @@ subject: 'cat:cs.AR OR cs.ET OR cs.NI'
 
 # 検索キーワード
 keywords:
-        NoCs: 7
-        Network-on-Chip: 7
-        On-Chip Network: 7
+        NoCs: 8
+        Network-on-Chip: 8
+        On-Chip Network: 8
         Many-Core: 5
-        CMPs: 7
-        Chip Multi-Processors: 7
+        CMPs: 8
+        Chip Multi-Processors: 8
         routing: 3
-        topology: 2
+        topology: 3
         heterogeneous: 3
-        scalable: 2
-        scalability: 2
+        scalable: 1
+        scalability: 1
         crossbar: 3
-        traversal: 3
-        network: 2
+        traversal: 2
         circuit-switching: 3
         circuit-switched: 3
         flit: 5
         
 
 # 通知の閾値
-score_threshold: 7
+score_threshold: 8
