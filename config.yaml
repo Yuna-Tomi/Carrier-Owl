@@ -7,11 +7,14 @@ keywords:
         Network-on-Chip: 8
         On-Chip Network: 8
         Many-Core: 5
+        Cache: 2
         CMPs: 8
         Chip Multi-Processors: 8
         routing: 3
         topology: 3
         heterogeneous: 3
+        Data center: 3
+        Data centre: 3
         scalable: 1
         scalability: 1
         crossbar: 3
